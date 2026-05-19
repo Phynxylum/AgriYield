@@ -117,6 +117,8 @@ st.caption("Pertanian Presisi — Sumber data: BPS (2024) & Holidah, Rahmatiyah 
 
 # Sidebar input
 with st.sidebar:
+    st.markdown("## 🌾 AgriYield")
+    st.markdown("---")
     st.header("📋 Data Input")
 
     tanaman  = st.selectbox("Jenis tanaman", list(DATA_TANAMAN.keys()))
